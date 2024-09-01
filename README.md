@@ -8,7 +8,7 @@ This project compares the performance of two machine learning models: Decision T
 
 ## Data
 
-The dataset consists of approximately 5,000 data points related to customer behavior. The features include various customer attributes such as contract type, payment method, tenure, and more.
+The dataset consists of approximately 5,000 data points related to customer behavior. The features include various customer attributes like `CustomerID`, `Age`, `Gender`, `ContractType`, `MonthlyCharges`, `TotalCharges`, and others. Additionally, derived features like `average_monthly_charges` and `customer_lifetime_value` are created. We also introduce missing values and outliers to simulate real-world scenarios.
 
 ## Models Used
 
